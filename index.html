@@ -49,6 +49,27 @@
     }
   }
 </style>
+	<style>
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: white;
+      width: 100%;
+      z-index: 9999;
+      padding: 1rem;
+    }
+    .navbar-nav {
+      align-items: flex-end;
+    }
+    .navbar-brand {
+      display: block;
+      text-align: right;
+      margin-bottom: 1rem;
+    }
+  }
+</style>
 
 	<!-- Here HTMLRewriter will write the Metadata from _middleware.js -->
 
