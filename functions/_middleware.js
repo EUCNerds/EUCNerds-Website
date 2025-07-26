@@ -19,7 +19,7 @@ export async function onRequest(context) {
   // ✅ Use your real metadata here
   const metatitle = "EUC Nerds – End User Computing Experts";
   const metadescription = "Expert End User Computing solutions for Citrix, Azure, Microsoft 365, and more.";
-  const ogImage = "https://eucnerds.com/img/eucnerds_glasses6.png";
+  const ogImage = "https://eucnerds.com/img/eucnerds_blue.png";
   const pageUrl = "https://eucnerds.com/";
 
   const ogtag = `
