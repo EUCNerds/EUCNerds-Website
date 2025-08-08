@@ -275,25 +275,52 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<h2 class="mg-md text-center" style="font-family: 'Verdana', sans-serif; font-size: 2.4rem; font-weight: 600; margin-bottom: 2.7rem; background: linear-gradient(to right, #6382c1, #12214e); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Request A Call</h2>
-				<form action="https://formspree.io/f/mblkdlya" method="POST" style="max-width: 500px; margin: 2em auto; padding: 2em; background: linear-gradient(145deg, #ffffff, #f1f1f1); border-radius: 12px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); font-family: 'Verdana', sans-serif;">
-				  <label style="display: block; margin-bottom: 0.5em; font-weight: 550; color: #555; font-family: 'Verdana', sans-serif;">Your Name</label>
-				  <input type="text" name="name" placeholder="John Doe" required style="width: 100%; padding: 0.75em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 6px;">
+					<form action="https://formspree.io/f/mblkdlya" method="POST" 
+					      style="max-width: 500px; 
+					             margin: 2em auto; 
+					             padding: 2em; 
+					             background: rgba(47, 47, 47, 0.85); 
+					             border-radius: 12px; 
+					             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4); 
+					             font-family: 'Verdana', sans-serif; 
+					             color: #f1f1f1; 
+					             backdrop-filter: blur(6px);">
+					
+					  <label style="display: block; margin-bottom: 0.5em; font-weight: 550; color: #f1f1f1;">Your Name</label>
+					  <input type="text" name="name" placeholder="John Doe" required 
+					         style="width: 100%; padding: 0.75em; margin-bottom: 1em; 
+					                background-color: rgba(68, 68, 68, 0.85); color: #fff; 
+					                border: 1px solid rgba(102, 102, 102, 0.6); border-radius: 6px;">
+					
+					  <label style="display: block; margin-bottom: 0.5em; font-weight: 550; color: #f1f1f1;">Your Phone Number</label>
+					  <input type="tel" name="phone" placeholder="(123) 456-7890" required 
+					         style="width: 100%; padding: 0.75em; margin-bottom: 1em; 
+					                background-color: rgba(68, 68, 68, 0.85); color: #fff; 
+					                border: 1px solid rgba(102, 102, 102, 0.6); border-radius: 6px;">
+					
+					  <label style="display: block; margin-bottom: 0.5em; font-weight: 550; color: #f1f1f1;">Your Email (optional)</label>
+					  <input type="email" name="email" placeholder="you@example.com" 
+					         style="width: 100%; padding: 0.75em; margin-bottom: 1em; 
+					                background-color: rgba(68, 68, 68, 0.85); color: #fff; 
+					                border: 1px solid rgba(102, 102, 102, 0.6); border-radius: 6px;">
+					
+					  <label style="display: block; margin-bottom: 0.5em; font-weight: 550; color: #f1f1f1;">Additional Notes</label>
+					  <textarea name="message" placeholder="Let us know how we can help..." rows="4" 
+					            style="width: 100%; padding: 0.75em; margin-bottom: 1.5em; 
+					                   background-color: rgba(68, 68, 68, 0.85); color: #fff; 
+					                   border: 1px solid rgba(102, 102, 102, 0.6); border-radius: 6px;"></textarea>
+					
+					  <input name="_formsubmit_id" type="text" style="display:none">
+					
+					  <button type="submit" 
+					          style="width: 100%; padding: 0.85em; background-color: rgba(66, 101, 175, 0.95); 
+					                 color: white; font-size: 1em; font-weight: 600; 
+					                 border: none; border-radius: 6px; cursor: pointer; 
+					                 transition: background 0.3s ease;">
+					    Request Call
+					  </button>
+					</form>
 
-				  <label style="display: block; margin-bottom: 0.5em; font-weight: 550; color: #555; font-family: 'Verdana', sans-serif;">Your Phone Number</label>
-				  <input type="tel" name="phone" placeholder="(123) 456-7890" required style="width: 100%; padding: 0.75em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 6px;">
-
-				  <label style="display: block; margin-bottom: 0.5em; font-weight: 550; color: #555; font-family: 'Verdana', sans-serif;">Your Email (optional)</label>
-				  <input type="email" name="email" placeholder="you@example.com" style="width: 100%; padding: 0.75em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 6px;">
-
-				  <label style="display: block; margin-bottom: 0.5em; font-weight: 550; color: #555; font-family: 'Verdana', sans-serif;">Additional Notes</label>
-				  <textarea name="message" placeholder="Let us know how we can help..." rows="4" style="width: 100%; padding: 0.75em; margin-bottom: 1.5em; border: 1px solid #ccc; border-radius: 6px;"></textarea>
-
-				  <input name="_formsubmit_id" type="text" style="display:none"> <!-- Honeypot -->
-
-				  <button type="submit" style="width: 100%; padding: 0.85em; background-color: #4265af; color: white; font-size: 1em; font-weight: 600; border: none; border-radius: 6px; cursor: pointer; transition: background 0.3s ease;">
-					Request Call
-				  </button>
-				</form>
 			</div>
 		</div>
 	</div>
