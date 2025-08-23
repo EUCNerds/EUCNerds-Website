@@ -391,3 +391,11 @@ button.submit:hover{filter:brightness(1.06)}
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+/* Works inside normal blocks and most flex parents */
+.center-page {
+  display: block;
+  width: max-content;        /* shrink to content */
+  margin-left: auto;
+  margin-right: auto;
+}
