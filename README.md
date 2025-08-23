@@ -1,72 +1,24 @@
-# cloudflare-pages-template
+# EUCNerds Website
 
-Get started with [Cloudflare Pages](https://pages.cloudflare.com/) by deploying this pretty template on your own account, and start playing around.
+This repository contains the EUCNerds corporate website (static HTML/CSS/JS). EUC Nerds is a consulting firm specializing in Citrix and Azure Virtual Desktop (AVD) solutions. The site is deployed via [Cloudflare Pages](https://pages.cloudflare.com) and is fully static.
 
-## Step 1
+## Structure
 
-Clone this Repository to your own GitHub account. 
+- **`index.html`** – Main homepage (one-page design with sections for services, contact, etc.).  
+- **`/img/`** – Image assets (logo and partner technology logos).  
+- **Other files** – `robots.txt`, `sitemap.xml`, etc. as needed for SEO.  
 
-Or download this Repository as a ZIP file by clicking the green button that says "<> Code" and clicking "Download ZIP", then extract the contents to a new folder, and upload the content (and only the content; not the folder) of that folder to a new GitHub Repository.
+No build step is required; simply edit the HTML/CSS and push to the default branch to redeploy.
 
-## Step 2
+## Deployment
 
-Access your _free_ Cloudflare account ([new to Cloudflare?](https://developers.cloudflare.com/fundamentals/get-started/)), and go to the Pages tab.
+The site is hosted on Cloudflare Pages. Ensure the root folder is selected in Pages settings and that your branch (e.g. `main`) is configured. Cloudflare Pages will automatically publish changes on push.
 
-![pages-tab](/img/readme-img/pages-tab.png)
+## License
 
-## Step 3
+(This project is licensed under the MIT License – see the `LICENSE` file.)
 
-Go to your Cloudflare Dashboard. Click on the blue "Create a project" button, and select "Connect to Git".
+## Contributing
 
-## Step 4
+Contributions are welcome (fixes, content updates, etc.). Please ensure all changes follow the existing style. For major changes or structural updates, open an issue first to discuss.
 
-Connect your GitHub account, select your Repository, and click "Begin setup".
-
-![github-deploy](/img/readme-img/github-deploy.png)
-
-## Step 5
-
-If you want, you can update some content, including the [index.html](index.html).
-
-You might want to update the following files with your own parameters:
-- [robots.txt](robots.txt)
-- [sitemap.xml](sitemap.xml)
-
-## Step 6
-
-Just hit "Save and Deploy" and let the magic happen! ✨
-
-![success](/img/readme-img/success.png)
-
-## Step 7
-
-Share your beautiful website with the world. 🤓
-
-==> https://cloudflare-pages-template.pages.dev/ (_your link might look different_)
-
-## Step 8 (Metadata)
-
-Added `Functions/_middleware.js` from the GitHub Repo [Dynamic Social Previews Meta Tags with Cloudflare Pages](https://github.com/pew/cloudflare-pages-social-preview), in order to add Meta Tags.
-
-Don't forget to edit the file [_middleware.js](functions/_middleware.js) with your own title, description, and such.
-
-## More (Optional) Steps
-
-[Add custom headers to create Content Security Policies (CSP) and more](https://developers.cloudflare.com/pages/platform/headers/)
-
-[Add a custom domain to a branch](https://developers.cloudflare.com/pages/how-to/custom-branch-aliases/).
-
-![custom-domains](/img/readme-img/custom-domains.png)
-
-[Redirecting www to domain apex](https://developers.cloudflare.com/pages/how-to/www-redirect/)
-
-[Cloudflare Pages gets even faster with Early Hints](https://blog.cloudflare.com/early-hints-on-cloudflare-pages/)
-
-[Build full-stack applications by executing code on the Cloudflare network with help from Cloudflare Workers](https://developers.cloudflare.com/pages/platform/functions/)
-
-# Disclaimer
-
-This is a general introduction to Cloudflare Pages. 
-
-Educational purposes only. This repo does not reflect the opinions of, and is not affiliated with Cloudflare. 
-Screenshots are taken from the Cloudflare dashboard.
