@@ -15,8 +15,8 @@ No build step is required; simply edit the HTML/CSS and push to the default bran
 The site is hosted on Cloudflare Pages. Ensure the root folder is selected in Pages settings and that your branch (e.g. `main`) is configured. Cloudflare Pages will automatically publish changes on push.
 
 ## License
-
-(This project is licensed under the MIT License – see the `LICENSE` file.)
+This website and its content are © 2025 EUC Nerds LLC. All rights reserved.
+Use, reproduction, or distribution of this content without written permission is prohibited.
 
 ## Contributing
 
