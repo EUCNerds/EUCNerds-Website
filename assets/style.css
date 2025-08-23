@@ -351,3 +351,14 @@ button.submit:hover{filter:brightness(1.06)}
   .nav-toggle.open .bar:nth-child(3){ transform:translateY(-7px) rotate(-45deg) }
 }
 
+/* Hide toggle by default (desktop) */
+.nav-toggle {
+  display: none;
+}
+
+/* Show toggle only on small screens */
+@media (max-width: 640px) {
+  .nav-toggle {
+    display: block;
+  }
+}
