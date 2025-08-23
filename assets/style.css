@@ -267,3 +267,39 @@ button.submit:hover{filter:brightness(1.06)}
 .linkedin-link:hover {
   text-decoration: underline;
 }
+
+/* Uniform logo frame */
+.partner-grid{
+  display:flex; flex-wrap:wrap; gap:22px;
+  align-items:center; justify-content:center;
+}
+
+.logo-item{
+  width: 200px;          /* consistent frame width */
+  height: 72px;          /* consistent frame height */
+  display:flex; align-items:center; justify-content:center;
+  padding: 6px 10px;
+  background: rgba(20,24,42,0.55);
+  border:1px solid var(--line);
+  border-radius:10px;
+}
+
+.logo-item img{
+  max-height: 44px;      /* primary control */
+  max-width: 160px;      /* prevents very wide logos from dominating */
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display:block;
+  image-rendering: auto;
+}
+
+/* Per-logo nudge to equalize visual mass with YOUR current PNGs */
+.logo-item.nutanix img { transform: scale(1.25); }
+.logo-item.vmware  img { transform: scale(1.30); }
+.logo-item.citrix  img { transform: scale(1.00); }
+.logo-item.azure   img { transform: scale(1.00); }
+
+@media (max-width:640px){
+  .logo-item{ width: 46%; min-width: 150px; }
+}
