@@ -303,3 +303,51 @@ button.submit:hover{filter:brightness(1.06)}
 @media (max-width:640px){
   .logo-item{ width: 46%; min-width: 150px; }
 }
+
+/* --- Mobile nav toggle --- */
+.nav-toggle{
+  display:none;
+  background:transparent;
+  border:0;
+  padding:8px;
+  margin-left:auto;
+  cursor:pointer;
+}
+.nav-toggle .bar{
+  display:block;
+  width:24px; height:2px;
+  background:#e9eefb;
+  margin:5px 0;
+  transition:transform .2s ease, opacity .2s ease;
+}
+
+/* Desktop: keep current layout */
+@media (min-width: 641px){
+  .menu{display:flex; gap:20px; align-items:center}
+}
+
+/* Mobile menu */
+@media (max-width: 640px){
+  .nav-toggle{display:block}
+  .menu{
+    position:absolute;
+    top:60px;                 /* below header */
+    right:12px;
+    left:12px;
+    display:none;             /* hidden by default */
+    flex-direction:column;
+    gap:10px;
+    padding:12px;
+    background:rgba(15,18,32,0.95);
+    border:1px solid var(--line);
+    border-radius:10px;
+    backdrop-filter: blur(8px);
+  }
+  .menu a{display:block; padding:8px 10px}
+  .menu.open{display:flex}
+  /* Optional: transform bars to “X” when open */
+  .nav-toggle.open .bar:nth-child(1){ transform:translateY(7px) rotate(45deg) }
+  .nav-toggle.open .bar:nth-child(2){ opacity:0 }
+  .nav-toggle.open .bar:nth-child(3){ transform:translateY(-7px) rotate(-45deg) }
+}
+
