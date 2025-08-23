@@ -97,7 +97,7 @@ a:hover{text-decoration:underline}
 /* Services */
 .section{padding:64px 0}
 .section h2{
-  font-size: clamp(24px, 4vw, 36px);
+  font-size: clamp(22px, 3.5vw, 32px);
   margin:0 0 10px;
 }
 .section .lead{color:var(--muted); margin:0 0 28px}
