@@ -1,358 +1,192 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<!-- Metadata -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<meta name="robots" content="index, follow">
-	
-	<!-- SEO -->
-	<title>EUC Nerds</title>
-	<meta name="title" content="EUC Nerds">
-	<meta name="description" content="Expert End User Computing solutions for Citrix, Azure, Microsoft 365, and more. Small business. Big results.">
-	
-	<!-- Open Graph -->
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="EUC Nerds">
-	<meta property="og:description" content="A small, specialized business helping companies thrive with secure, high-performance digital workspaces.">
-	<meta property="og:image" content="https://eucnerds.com/img/eucnerds_og.png">
-	<meta property="og:url" content="https://eucnerds.com">
-	
-	<!-- Twitter -->
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="EUC Nerds">
-	<meta name="twitter:description" content="Small, specialized EUC consulting for Citrix, AVD, and Microsoft 365.">
-	<meta name="twitter:image" content="https://eucnerds.com/img/eucnerds_og.png">
-
-	<title>EUC Nerds</title>
-    <link rel="shortcut icon" type="image/png" href="img/eucnerds_glasses6.png">
-	<!-- Metadata END -->
-    
-	<!-- Stylesheets -->
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?1563">
-	<link rel="stylesheet" type="text/css" href="style.css?2909">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?7190">
-	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
-	<!-- Stylesheets END -->
-	
-<!-- Custom mobile navbar fix -->
-  <style>
-    @media (max-width: 768px) {
-      .navbar-nav {
-        width: 100%;
-        padding-right: 0 !important;
-        margin-right: 0 !important;
-        text-align: right;
-      }
-
-      .navbar-nav .nav-item {
-        width: 100%;
-        margin: 0 !important;
-        padding: 0 !important;
-      }
-
-      .navbar-nav .navbar-brand {
-        display: block;
-        text-align: right;
-        margin: 0 !important;
-        padding-right: 0 !important;
-      }
-
-      .container-fluid {
-        padding-right: 0 !important;
-        margin-right: 0 !important;
-      }
-    }
-  </style>
-	<style>
-	    body {
-	     background: linear-gradient(to bottom, #f5f5f5, #bbbbbb);
-	    }
-	</style>
-
-	<style>
-@media (max-width: 768px) {
-  .logo-grid {
-    justify-content: center;
-    gap: 1.5rem;
-  }
-
-  .logo-grid img {
-    flex: 0 0 45%; /* ~2 columns with some gap */
-    max-width: 100%;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto;
-  }
-}
-</style>
-
-	
-	<style>
-  @media only screen and (max-width: 768px) {
-    h1.hero-header-text {
-      font-size: 2.5rem !important;
-    }
-
-    h3.hero-subheader {
-      font-size: 1.1rem !important;
-    }
-
-    h1.mg-md.text-center {
-      font-size: 1.2rem !important;
-    }
-
-    h2.mg-md.text-center {
-      font-size: 1.5rem !important;
-    }
-
-    p.text-center {
-      font-size: 0.95rem !important;
-    }
-
-    ul {
-      font-size: 0.95rem !important;
-    }
-  }
-</style>
-	<style>
-  @media (max-width: 768px) {
-    .navbar-collapse {
-      position: absolute;
-      top: 100%;
-      right: 0;
-      background-color: transparent;
-      width: 100%;
-      z-index: 9999;
-      padding: 1rem;
-    }
-    .navbar-nav {
-	text-align: right;
-      align-items: flex-end;
-    }
-    .navbar-brand {
-      display: block;
-      text-align: right;
-      margin-bottom: 1rem;
-    }
-  }
-</style>
-
-	<!-- Here HTMLRewriter will write the Metadata from _middleware.js -->
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EUC Nerds - Citrix and AVD Consulting</title>
+  <meta name="description" content="EUC Nerds helps teams design, optimize, and support Citrix and Azure Virtual Desktop environments. Faster logons, better security, lower cloud spend.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="EUC Nerds - Citrix and AVD Consulting">
+  <meta property="og:description" content="Secure, high-performance EUC. Citrix and AVD experts.">
+  <meta property="og:image" content="img/eucnerds_blue.png">
+  <link rel="icon" type="image/png" href="img/eucnerds_blue.png">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">
+        <img src="img/eucnerds_blue.png" alt="EUC Nerds logo">
+      </a>
+      <nav class="menu">
+        <a href="#services">Services</a>
+        <a href="#why">Why EUC Nerds</a>
+        <a href="#contact">Request a call</a>
+        <a class="cta-btn" href="#contact">Get in touch</a>
+      </nav>
+    </div>
+  </header>
 
-<!-- Preloader -->
-<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
-<!-- Preloader END -->
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <h1>Secure, high-performance workspaces that your users love</h1>
+        <p>We design, optimize, and support Citrix and Azure Virtual Desktop environments. Our focus is simple: faster logons, better user experience, strong security, and right-sized cloud costs.</p>
+        <div class="hero-actions">
+          <a class="cta-btn" href="#contact">Request a call</a>
+          <a href="#services">Explore our services</a>
+        </div>
+      </div>
+    </section>
 
+    <section class="partners">
+      <div class="container partner-grid">
+        <img src="img/Citrix.png" alt="Citrix">
+        <img src="img/Azure.png" alt="Azure">
+        <img src="img/Nutanix.png" alt="Nutanix">
+        <img src="img/vmware.png" alt="VMware">
+      </div>
+    </section>
 
-<!-- Main container -->
-<div class="page-container">
-    
-<!-- bloc-0 -->
-<div class="bloc bloc-fill-screen l-bloc " id="bloc-0">
-	<div class="container fill-bloc-top-edge">
-		<div class="row">
-			<div class="col-12">
-				<nav class="navbar navbar-light navbar-expand-md" role="navigation">
-					<div class="container-fluid" style="padding-left: 14px;">
-						<a href="https://eucnerds.com" target="_blank">
-  							<img src="https://eucnerds.com/img/eucnerds_blue.png" alt="EUC Nerds Logo" style="width:180px; height:auto; border:0;">
-						</a>
-						<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 ms-auto me-md-0" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target=".navbar-35092">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse navbar-120 navbar-29706 navbar-45188 navbar-18426 navbar-42371 navbar-35092">
-							<ul class="site-navigation nav navbar-nav ms-auto">
-								<li class="nav-item me-3">
-      									<a class="navbar-brand" href="#contact" style="font-family: 'Verdana', sans-serif; font-weight: 400; font-size: 1.1rem;">Request A Call</a>
-    								</li>
-							        <li class="nav-item">
-							      		<a class="navbar-brand" href="#services" style="font-family: 'Verdana', sans-serif; font-weight: 400; font-size: 1.1rem;">Our Services</a>
-							        </li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<h1 class="text-center mg-clear hero-header-text text-blue-gradient" style="font-family: 'Verdana', sans-serif; font-size: 5rem; background: linear-gradient(to right, #6382c1, #12214e);">
-				      End User Computing Experts You Can Trust<br>
-				</h1>
+    <section id="services" class="section container">
+      <h2>Our services</h2>
+      <p class="lead">Consulting and project services for modern End User Computing environments.</p>
 
-				<h3 class="mg-md float-none text-center hero-subheader" style="font-family: 'Verdana', sans-serif; font-size: 1.5rem; font-weight: 500; color: #808080;">
-  				      Empowering businesses with secure, high-performance EUC solutions.
-				</h3>
-			</div>
-		</div>
-	</div>
-	<div class="container fill-bloc-bottom-edge">
-		<div class="row">
-			<div class="col-12">
-				<div class="text-center">
-					<a href="#" data-scroll-speed="1000" onclick="scrollToTarget('0',this)"><span class="fa fa-angle-down icon-md animated bounce animDelay08"></span></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-0 END -->
+      <div class="cards">
+        <article class="card">
+          <h3>Citrix architecture and optimization</h3>
+          <p>High quality design and tuning for Citrix Virtual Apps and Desktops. Improve login times, stability, and day 2 operations.</p>
+        </article>
 
-	
-<!-- bloc-1 -->
-<div class="bloc l-bloc" id="bloc-1">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-lg-12 hero-first-col-mb">
-				<h1 class="mg-md text-center" style="font-family: 'Verdana', sans-serif; font-size: 1.7rem; font-weight: 500; line-height: 1.2;">
-  					We specialize in designing, optimizing, and supporting Citrix, Microsoft 365, Azure, and AVD environments.<br>
-  					Delivering secure, scalable, and high-performance end-user computing solutions tailored to each client’s needs.
-				</h1>
-			</div>
-			<div class="logo-grid offset-md-2 col-md-8 col-lg-8 offset-lg-2 d-flex justify-content-between align-items-center flex-wrap" style="gap: 1rem; margin-top: 2rem;">
-			  <img src="img/Citrix.png" class="img-fluid" alt="Citrix" style="max-height: 40px;">
-			  <img src="img/Azure.png" class="img-fluid" alt="Azure" style="max-height: 40px;">
-			  <img src="img/Nutanix.png" class="img-fluid" alt="Nutanix" style="max-height: 100px;">
-			  <img src="img/vmware.png" class="img-fluid" alt="VMWare" style="max-height: 120px;">
-			</div>
+        <article class="card">
+          <h3>Azure Virtual Desktop and Microsoft 365</h3>
+          <p>Deploy and integrate AVD and M365 for secure, cloud-forward work. Hybrid identity, FSLogix best practices, and app delivery that scales.</p>
+        </article>
 
+        <article class="card">
+          <h3>Health checks and troubleshooting</h3>
+          <p>End to end reviews of policies, profiles, and platform configuration. Find bottlenecks and fix problems that frustrate users.</p>
+        </article>
 
+        <article class="card">
+          <h3>License sales and guidance</h3>
+          <p>Right-size your Citrix, AVD, and M365 licensing. Procurement support with a focus on value and long term manageability.</p>
+        </article>
 
-		</div>
-	</div>
-</div>
-<!-- bloc-1 END -->
+        <article class="card">
+          <h3>Nutanix and VMware integration</h3>
+          <p>Hyper-converged and virtual infrastructure that supports EUC workloads. Design for performance and resilience.</p>
+        </article>
 
-<div style="height: 2px; background-color: #CCCCCC; margin: 40px 70px;"></div>
+        <article class="card">
+          <h3>Azure spend reduction</h3>
+          <p>Review usage and scale profiles to eliminate waste. Many clients save thousands each month by aligning capacity to real demand.</p>
+        </article>
+      </div>
 
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a>
-<!-- ScrollToTop Button END-->
+      <div class="cta-band">
+        <div>
+          <strong>Have a performance or stability issue today</strong><br>
+          We can help you plan a quick path to improvement and a long term roadmap.
+        </div>
+        <a class="cta-btn" href="#contact">Talk to an expert</a>
+      </div>
+    </section>
 
+    <section id="why" class="section container">
+      <h2>Why EUC Nerds</h2>
+      <p class="lead">We focus on results that matter to your users and your budget.</p>
+      <div class="value-grid">
+        <div class="value">
+          <h4>Performance</h4>
+          <p>Logons and apps that feel fast. Practical tuning for profiles, policies, and protocol settings.</p>
+        </div>
+        <div class="value">
+          <h4>Security</h4>
+          <p>Identity and access best practices, data protection, and platform hardening baked into every engagement.</p>
+        </div>
+        <div class="value">
+          <h4>Savings</h4>
+          <p>Right-size cloud and licenses. Scale when you need it, save when you do not.</p>
+        </div>
+      </div>
+    </section>
 
-</div>
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="form-wrap">
+          <h3>Request a call</h3>
+          <p>Tell us a bit about your environment. We will get back to you quickly.</p>
+          <form id="contact-form" action="https://formspree.io/f/mblkdlya" method="POST">
+            <label for="name">Your name</label>
+            <input class="input" id="name" name="name" type="text" placeholder="Jane Doe" required>
 
-<!-- bloc-2: Our Services -->
-<section id="services">
-<div class="bloc l-bloc" id="bloc-2">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-lg-12">
-				<h2 class="mg-md text-center" style="font-family: 'Verdana', sans-serif; font-size: 2.4rem; font-weight: 600; margin-bottom: 2.7rem; background: linear-gradient(to right, #6382c1, #12214e); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-					Our Services
-				</h2>
-				<p class="text-center" style="font-family: 'Verdana', sans-serif; font-size: 1.1rem; font-weight: 500; margin-bottom: 1.5rem;">
-					We offer specialized consulting, support, and project services tailored to modern End User Computing environments:
-				</p>
-				<ul style="font-family: 'Verdana', sans-serif; font-size: 1rem; line-height: 2.5;">
-					<li><strong>Citrix Architecture & Design</strong> – Build high-performance, secure EUC platforms from the ground up</li>
-					<li><strong>Health Checks & Optimization</strong> – Diagnose issues, fine-tune policies, and improve login and app launch times</li>
-					<li><strong>Microsoft 365 & Azure Virtual Desktop (AVD)</strong> – Integrate secure cloud solutions and manage hybrid workspaces</li>
-					<li><strong>License Sales, Management & Procurement</strong> – Resell and support Citrix, Microsoft 365, Azure, and other EUC licenses while helping clients maximize value</li>
-					<li><strong>Nutanix & VMware Expertise</strong> – Infrastructure integrations, VDI scaling, and hyper-converged deployments</li>
-					<li><strong>Azure Spend Reduction</strong> – Reviewing your environment for cost optimizations! Thousands can be saved per month! Reach out today!</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
+            <label for="phone">Your phone number</label>
+            <input class="input" id="phone" name="phone" type="tel" placeholder="(555) 123-4567" required>
+
+            <label for="email">Your email</label>
+            <input class="input" id="email" name="email" type="email" placeholder="you@example.com">
+
+            <label for="msg">Additional notes</label>
+            <textarea class="input" id="msg" name="message" rows="4" placeholder="Citrix or AVD details, goals, or issues"></textarea>
+
+            <input name="_formsubmit_id" type="text" style="display:none">
+            <button class="submit" type="submit">Request call</button>
+          </form>
+        </div>
+
+<section class="social">
+  <div class="container social-card">
+    <div class="social-left">
+<a class="linkedin-link" href="https://www.linkedin.com/company/eucnerds" target="_blank" rel="noopener">
+      <svg class="li" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8.98h5V24H0V8.98zM8.98 8.98h4.78v2.05h.07c.66-1.24 2.28-2.55 4.69-2.55 5.02 0 5.95 3.3 5.95 7.58V24h-5v-6.69c0-1.6-.03-3.66-2.23-3.66-2.23 0-2.57 1.74-2.57 3.54V24h-5V8.98z"/>
+      </svg>
+      <div>
+        <h3>Connect on LinkedIn</h3>
+        <p>
+        </p>
+</a>
+      </div>
+    </div>
+  </div>
 </section>
-<!-- bloc-2 END -->
-
-<div style="height: 2px; background-color: #CCCCCC; margin: 40px 70px;"></div>
-	
-<section id="contact">
-<!-- bloc-3: Request a Call Form -->
-<div class="bloc l-bloc" id="bloc-3">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-lg-12">
-				<h2 class="mg-md text-center" style="font-family: 'Verdana', sans-serif; font-size: 2.4rem; font-weight: 600; margin-bottom: 2.7rem; background: linear-gradient(to right, #6382c1, #12214e); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Request A Call</h2>
-					<form action="https://formspree.io/f/mblkdlya" method="POST" 
-					      style="max-width: 500px; 
-					             margin: 2em auto; 
-					             padding: 2em; 
-					             background: rgba(169, 169, 169, 1.0);
-					             border-radius: 12px; 
-					             box-shadow: 0 0 20px rgba(66, 101, 175, 0.5), 0 5px 10px rgba(0, 0, 0, 0.3); 
-					             font-family: 'Verdana', sans-serif; 
-					             color: #f1f1f1; 
-					             backdrop-filter: blur(4px);">
-					
-					  <label style="display: block; margin-bottom: 0.5em; font-weight: 550; color: #f1f1f1;">Your Name</label>
-					  <input type="text" name="name" placeholder="John Doe" required 
-					         style="width: 100%; padding: 0.75em; margin-bottom: 1em; 
-					                background-color: rgba(68, 68, 68, 0.40); color: #fff; 
-					                border: 1px solid rgba(102, 102, 102, 0.6); border-radius: 6px;">
-					
-					  <label style="display: block; margin-bottom: 0.5em; font-weight: 550; color: #f1f1f1;">Your Phone Number</label>
-					  <input type="tel" name="phone" placeholder="(123) 456-7890" required 
-					         style="width: 100%; padding: 0.75em; margin-bottom: 1em; 
-					                background-color: rgba(68, 68, 68, 0.40); color: #fff; 
-					                border: 1px solid rgba(102, 102, 102, 0.6); border-radius: 6px;">
-					
-					  <label style="display: block; margin-bottom: 0.5em; font-weight: 550; color: #f1f1f1;">Your Email (optional)</label>
-					  <input type="email" name="email" placeholder="you@example.com" 
-					         style="width: 100%; padding: 0.75em; margin-bottom: 1em; 
-					                background-color: rgba(68, 68, 68, 0.40); color: #fff; 
-					                border: 1px solid rgba(102, 102, 102, 0.6); border-radius: 6px;">
-					
-					  <label style="display: block; margin-bottom: 0.5em; font-weight: 550; color: #f1f1f1;">Additional Notes</label>
-					  <textarea name="message" placeholder="Let us know how we can help..." rows="4" 
-					            style="width: 100%; padding: 0.75em; margin-bottom: 1.5em; 
-					                   background-color: rgba(68, 68, 68, 0.40); color: #fff; 
-					                   border: 1px solid rgba(102, 102, 102, 0.6); border-radius: 6px;"></textarea>
-					
-					  <input name="_formsubmit_id" type="text" style="display:none">
-					
-					  <button type="submit" 
-					          style="width: 100%; padding: 0.85em; background-color: rgba(66, 101, 175, 0.95); 
-					                 color: white; font-size: 1em; font-weight: 600; 
-					                 border: none; border-radius: 6px; cursor: pointer;
-					                 transition: background 0.3s ease;">
-					    Request Call
-					  </button>
-					</form>
-
-				<style>
-				    /* Change placeholder text color */
-				    input::placeholder, textarea::placeholder {
-				        color: #4C4E52;
-				    }
-				</style>
-
-				
-				<div style="max-width: 500px; margin: 2em auto; text-align: center; 
-				            background: rgba(169, 169, 169, 1.0); padding: 1.5em; border-radius: 10px; 
-				            box-shadow: 0 0 10px rgba(66, 101, 175, 0.5), 0 5px 10px;
-				            font-family: 'Verdana', sans-serif; backdrop-filter: blur(4px);">
-				  <p style="font-size: 1.1em; font-weight: 550; margin-bottom: 1em; color: white;">
-				    Send Us A Message On LinkedIn:
-				  </p>
-				  <a href="https://www.linkedin.com/company/eucnerds" target="_blank" 
-				     style="display: inline-flex; align-items: center; gap: 0.5em; 
-				            padding: 0.6em 1em; background-color: #0A66C2; color: white; 
-				            font-weight: 600; text-decoration: none; border-radius: 6px; 
-				            transition: background 0.3s ease;">
-				    <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" 
-				         alt="LinkedIn" style="width: 20px; height: 20px;">
-				    EUC Nerds
-				  </a>
-				</div>
 
 
+      </div>
+    </section>
 
-<!-- Additional JS -->
-<script src="./js/bootstrap.bundle.min.js?8537"></script>
-<script src="./js/blocs.min.js?4639"></script>
-<script src="./js/lazysizes.min.js" defer></script><!-- Additional JS END -->
+  </main>
 
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand" style="gap:8px">
+          <img src="img/eucnerds_blue.png" alt="EUC Nerds logo small" style="height:28px">
+
+        </div>
+        <p class="small">Citrix and Azure Virtual Desktop consulting. Performance, security, and savings for modern work.</p>
+      </div>
+      <div>
+        <strong>Services</strong><br>
+        <a href="#services">Citrix consulting</a><br>
+        <a href="#services">AVD and Microsoft 365</a><br>
+        <a href="#services">Health checks</a><br>
+        <a href="#services">Licensing guidance</a>
+      </div>
+      <div>
+        <strong>Contact</strong><br>
+        <a href="#contact">Request a call</a><br>
+        <a href="https://www.linkedin.com/company/eucnerds" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <div class="container" style="margin-top:12px">
+      <div class="small">© <span id="year"></span> EUC Nerds LLC. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
 </body>
 </html>
