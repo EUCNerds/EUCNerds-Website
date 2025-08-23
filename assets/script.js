@@ -1,0 +1,22 @@
+
+// Smooth scroll for internal links
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const id = a.getAttribute('href').slice(1);
+    if(!id) return;
+    const el = document.getElementById(id);
+    if(el){
+      e.preventDefault();
+      el.scrollIntoView({behavior:'smooth', block:'start'});
+    }
+  });
+});
+
+// Disable submit button on form submit to prevent double sends
+const contactForm = document.getElementById('contact-form');
+if(contactForm){
+  contactForm.addEventListener('submit', function(){
+    const btn = this.querySelector('button[type="submit"]');
+    if(btn){ btn.disabled = true; btn.textContent = 'Sending...'; }
+  });
+}
