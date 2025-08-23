@@ -364,13 +364,12 @@ button.submit:hover{filter:brightness(1.06)}
 }
 
 .text-gradient {
-  background: linear-gradient(to right, #ffffff, #4a6dbf, #0a1533);
+  background: linear-gradient(to right, #0a1533, #4a6dbf, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
 }
-
 
 
 
