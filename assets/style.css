@@ -22,7 +22,7 @@ html,body{
   color:var(--ink);
   font-family: Verdana;
   line-height:1.6;
-  font-size: 1.0rem;
+  font-size: 0.95rem;
 }
 
 a{color:var(--brand-2); text-decoration:none}
