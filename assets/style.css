@@ -296,7 +296,7 @@ button.submit:hover{filter:brightness(1.06)}
 
 /* Per-logo nudge to equalize visual mass with YOUR current PNGs */
 .logo-item.nutanix img { transform: scale(2.30); }
-.logo-item.vmware  img { transform: scale(0.50); }
+.logo-item.vmware  img { transform: scale(2.40); }
 .logo-item.citrix  img { transform: scale(1.00); }
 .logo-item.azure   img { transform: scale(1.00); }
 
