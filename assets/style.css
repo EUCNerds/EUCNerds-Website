@@ -370,6 +370,3 @@ button.submit:hover{filter:brightness(1.06)}
   overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0;
 }
 
-.button-center {
-  text-align: center;
-}
