@@ -45,7 +45,7 @@ a:hover{text-decoration:underline}
 .brand{
   display:flex; align-items:center; gap:12px;
 }
-.brand img{height:75px; width:auto}
+.brand img{height:60px; width:auto}
 .brand-name{font-weight:700; letter-spacing:0.5px}
 
 .menu{display:flex; gap:20px; align-items:center}
