@@ -372,4 +372,11 @@ button.submit:hover{filter:brightness(1.06)}
 }
 
 
+h1, h2, h3, h4 {
+  background: linear-gradient(to right, #0a1533, #4a6dbf, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
 
