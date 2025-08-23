@@ -391,27 +391,3 @@ button.submit:hover{filter:brightness(1.06)}
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
-/* Optional: tweak LinkedIn-specific hover */
-.linkedin-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
-.linkedin-btn:active {
-  transform: translateY(0);
-}
-
-.linkedin-btn .icon {
-  fill: currentColor;
-}
-
-/* Make a full-width row inside a flex container, then center contents */
-.center-row {
-  flex: 1 0 100%;   /* take a whole line in .hero-actions */
-  display: flex;
-  justify-content: center;
-}
-
-/* (Optional) If you want ALL hero buttons centered in one row instead: */
-/* .hero-actions { justify-content: center; } */
