@@ -198,7 +198,7 @@ form button {
 .footer{
   border-top:1px solid var(--line);
   background:#0e1120;
-  padding:40px 0; color:#cdd6f6; font-size:14px
+  padding:28px 0; color:#cdd6f6; font-size:14px
 }
 .footer-grid{
   display:grid; grid-template-columns: repeat(3, 1fr); gap:13px;
