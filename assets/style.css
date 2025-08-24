@@ -116,7 +116,7 @@ a:hover{text-decoration:underline}
 .card h3{margin:8px 0 6px; font-size:18px}
 .card p{margin:0; color:var(--muted)}
 
-h3 {
+h4 {
   font-size: 1.5rem; /* ~24px */
   font-weight: 600;  /* optional, to make it stand out */
 }
