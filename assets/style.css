@@ -116,6 +116,11 @@ a:hover{text-decoration:underline}
 .card h3{margin:8px 0 6px; font-size:18px}
 .card p{margin:0; color:var(--muted)}
 
+h3 {
+  font-size: 1.5rem; /* ~24px */
+  font-weight: 600;  /* optional, to make it stand out */
+}
+
 /* Value props */
 .value-grid{
   display:grid; grid-template-columns: repeat(3, 1fr); gap:18px;
