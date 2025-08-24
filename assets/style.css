@@ -419,12 +419,3 @@ form button {
   margin-right: auto;
 }
 
-header.nav {
-  background: linear-gradient(135deg, #0f1220 0%, #1c2240 100%);
-  background-image: url('img/tech-pattern.png');
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: overlay;
-  border-bottom: 1px solid #28305a;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-}
