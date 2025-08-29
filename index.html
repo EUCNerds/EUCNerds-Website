@@ -1,4 +1,4 @@
- <!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -43,30 +43,32 @@
   </div>
 </header>
 
-
-  <main id="top">
-    <section class="hero">
-      <div class="container">
-        <h1>Secure, high-performance workspaces that your users love</h1>
-        <p>We design, optimize, and support Citrix and Azure Virtual Desktop environments. Our focus is simple: faster logons, better user experience, strong security, and right-sized cloud costs.</p>
-        <div class="hero-actions">
-          <a class="cta-btn" href="#contact">Request a Call</a>
-          <a class="cta-btn" href="#services">Explore Our Services</a>
-        </div>
+<main id="top">
+  <!-- HERO SECTION - Dark background -->
+  <section class="hero-section">
+    <div class="container">
+      <h1>Secure, high-performance workspaces that your users love</h1>
+      <p>We design, optimize, and support Citrix and Azure Virtual Desktop environments. Our focus is simple: faster logons, better user experience, strong security, and right-sized cloud costs.</p>
+      <div class="hero-actions">
+        <a class="cta-btn" href="#contact">Request a Call</a>
+        <a class="cta-btn" href="#services">Explore Our Services</a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="partners">
-      <div class="container partner-grid">
-        <div class="logo-item citrix"><img src="img/citrix_WHT.png" alt="Citrix"></div>
-        <div class="logo-item azure"><img src="img/Azure.png" alt="Azure"></div>
-        <div class="logo-item nutanix"><img src="img/Nutanix.png" alt="Nutanix"></div>
-        <div class="logo-item vmware"><img src="img/vmware_GREY.png" alt="VMware"></div>
-      </div>
-    </section>
+  <!-- PARTNERS SECTION - Light background -->
+  <section class="partners-section">
+    <div class="container partner-grid">
+      <div class="logo-item citrix"><img src="img/citrix_WHT.png" alt="Citrix"></div>
+      <div class="logo-item azure"><img src="img/Azure.png" alt="Azure"></div>
+      <div class="logo-item nutanix"><img src="img/Nutanix.png" alt="Nutanix"></div>
+      <div class="logo-item vmware"><img src="img/vmware_GREY.png" alt="VMware"></div>
+    </div>
+  </section>
 
-
-    <section id="services" class="section container">
+  <!-- SERVICES SECTION - Dark background -->
+  <section id="services" class="services-section section">
+    <div class="container">
       <h2>Our Services</h2>
       <p class="lead">Consulting and project services for modern End User Computing environments.</p>
 
@@ -109,9 +111,12 @@
         </div>
         <a class="cta-btn" href="#contact">Talk to an Expert</a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="why" class="section container">
+  <!-- WHY SECTION - Light background -->
+  <section id="why" class="why-section section">
+    <div class="container">
       <h2>Why EUC Nerds?</h2>
       <p class="lead">We focus on results that matter to your users and your budget.</p>
       <div class="value-grid">
@@ -128,66 +133,65 @@
           <p>Right-size cloud and licenses. Scale when you need it, save when you do not.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="form-wrap">
-          <h3>Request a Call</h3>
-          <p>Tell us a bit about your environment. We will get back to you quickly.</p>
-          <form id="contact-form" action="https://formspree.io/f/mblkdlya" method="POST">
-            <label for="name">Your Name</label>
-            <input class="input" id="name" name="name" type="text" placeholder="Jane Doe" required>
+  <!-- CONTACT SECTION - Dark background -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="form-wrap">
+        <h3>Request a Call</h3>
+        <p>Tell us a bit about your environment. We will get back to you quickly.</p>
+        <form id="contact-form" action="https://formspree.io/f/mblkdlya" method="POST">
+          <label for="name">Your Name</label>
+          <input class="input" id="name" name="name" type="text" placeholder="Jane Doe" required>
 
-            <label for="phone">Your Phone Number</label>
-            <input class="input" id="phone" name="phone" type="tel" placeholder="(555) 123-4567" required>
+          <label for="phone">Your Phone Number</label>
+          <input class="input" id="phone" name="phone" type="tel" placeholder="(555) 123-4567" required>
 
-            <label for="email">Your Email</label>
-            <input class="input" id="email" name="email" type="email" placeholder="you@example.com">
+          <label for="email">Your Email</label>
+          <input class="input" id="email" name="email" type="email" placeholder="you@example.com">
 
-            <label for="msg">Additional Notes</label>
-            <textarea class="input" id="msg" name="message" rows="4" placeholder="Citrix or AVD details, goals, or issues..."></textarea>
+          <label for="msg">Additional Notes</label>
+          <textarea class="input" id="msg" name="message" rows="4" placeholder="Citrix or AVD details, goals, or issues..."></textarea>
 
-            <input name="_formsubmit_id" type="text" style="display:none">
-            <button class="submit" type="submit">Request Call</button>
-          </form>
-        </div>
-
-      </div>
-    </section>
-
-   <br>
-
-  </main>
-
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div style="margin-right: 30px;">
-        <div class="brand" style="gap:8px">
-          <img src="img/euc_cursor_bold.png" alt="EUC Nerds logo small" style="height:28px">
-
-        </div>
-        <p class="small">Citrix and Azure Virtual Desktop consulting. Performance, security, and savings for modern work.</p>
-      </div>
-      <div>
-        <strong>Services</strong><br>
-        <a href="#services">Citrix Consulting</a><br>
-        <a href="#services">AVD and Microsoft 365</a><br>
-        <a href="#services">Health Checks</a><br>
-        <a href="#services">Licensing Guidance</a>
-      </div>
-      <div>
-        <strong>Contact</strong><br>
-        <a href="#contact">Request a Call</a><br>
-        <a href="https://www.linkedin.com/company/eucnerds" target="_blank" rel="noopener">LinkedIn</a>
+          <input name="_formsubmit_id" type="text" style="display:none">
+          <button class="submit" type="submit">Request Call</button>
+        </form>
       </div>
     </div>
-    <div class="container" style="margin-top:12px">
-      <div class="small">© <span id="year"></span> EUC Nerds LLC. All rights reserved.</div>
-    </div>
-  </footer>
+  </section>
 
-  <script src="assets/script.js"></script>
-  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</main>
+
+<!-- FOOTER - Darkest background -->
+<footer class="footer-section">
+  <div class="container footer-grid">
+    <div style="margin-right: 30px;">
+      <div class="brand" style="gap:8px">
+        <img src="img/euc_cursor_bold.png" alt="EUC Nerds logo small" style="height:28px">
+      </div>
+      <p class="small">Citrix and Azure Virtual Desktop consulting. Performance, security, and savings for modern work.</p>
+    </div>
+    <div>
+      <strong>Services</strong><br>
+      <a href="#services">Citrix Consulting</a><br>
+      <a href="#services">AVD and Microsoft 365</a><br>
+      <a href="#services">Health Checks</a><br>
+      <a href="#services">Licensing Guidance</a>
+    </div>
+    <div>
+      <strong>Contact</strong><br>
+      <a href="#contact">Request a Call</a><br>
+      <a href="https://www.linkedin.com/company/eucnerds" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+  <div class="container" style="margin-top:12px">
+    <div class="small">© <span id="year"></span> EUC Nerds LLC. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
 </body>
 </html>
